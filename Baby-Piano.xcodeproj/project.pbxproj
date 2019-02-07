@@ -12,6 +12,13 @@
 		9D3E0B27220CB4BB0094F7A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D3E0B25220CB4BB0094F7A6 /* Main.storyboard */; };
 		9D3E0B29220CB4C30094F7A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D3E0B28220CB4C30094F7A6 /* Assets.xcassets */; };
 		9D3E0B2C220CB4C30094F7A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D3E0B2A220CB4C30094F7A6 /* LaunchScreen.storyboard */; };
+		9DB288AD220CBF1F00F1966C /* note2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9DB288A6220CBF1E00F1966C /* note2.wav */; };
+		9DB288AE220CBF1F00F1966C /* note0.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9DB288A7220CBF1E00F1966C /* note0.wav */; };
+		9DB288AF220CBF1F00F1966C /* note6.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9DB288A8220CBF1E00F1966C /* note6.wav */; };
+		9DB288B0220CBF1F00F1966C /* note3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9DB288A9220CBF1E00F1966C /* note3.wav */; };
+		9DB288B1220CBF1F00F1966C /* note4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9DB288AA220CBF1E00F1966C /* note4.wav */; };
+		9DB288B2220CBF1F00F1966C /* note5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9DB288AB220CBF1E00F1966C /* note5.wav */; };
+		9DB288B3220CBF1F00F1966C /* note1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9DB288AC220CBF1F00F1966C /* note1.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,13 @@
 		9D3E0B28220CB4C30094F7A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D3E0B2B220CB4C30094F7A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9D3E0B2D220CB4C30094F7A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DB288A6220CBF1E00F1966C /* note2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note2.wav; sourceTree = "<group>"; };
+		9DB288A7220CBF1E00F1966C /* note0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note0.wav; sourceTree = "<group>"; };
+		9DB288A8220CBF1E00F1966C /* note6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note6.wav; sourceTree = "<group>"; };
+		9DB288A9220CBF1E00F1966C /* note3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note3.wav; sourceTree = "<group>"; };
+		9DB288AA220CBF1E00F1966C /* note4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note4.wav; sourceTree = "<group>"; };
+		9DB288AB220CBF1E00F1966C /* note5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note5.wav; sourceTree = "<group>"; };
+		9DB288AC220CBF1F00F1966C /* note1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note1.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +72,25 @@
 				9D3E0B23220CB4BB0094F7A6 /* PianoController.swift */,
 				9D3E0B25220CB4BB0094F7A6 /* Main.storyboard */,
 				9D3E0B28220CB4C30094F7A6 /* Assets.xcassets */,
+				9DB288A5220CBEFA00F1966C /* Sound Files */,
 				9D3E0B2A220CB4C30094F7A6 /* LaunchScreen.storyboard */,
 				9D3E0B2D220CB4C30094F7A6 /* Info.plist */,
 			);
 			path = "Baby-Piano";
+			sourceTree = "<group>";
+		};
+		9DB288A5220CBEFA00F1966C /* Sound Files */ = {
+			isa = PBXGroup;
+			children = (
+				9DB288A7220CBF1E00F1966C /* note0.wav */,
+				9DB288AC220CBF1F00F1966C /* note1.wav */,
+				9DB288A6220CBF1E00F1966C /* note2.wav */,
+				9DB288A9220CBF1E00F1966C /* note3.wav */,
+				9DB288AA220CBF1E00F1966C /* note4.wav */,
+				9DB288AB220CBF1E00F1966C /* note5.wav */,
+				9DB288A8220CBF1E00F1966C /* note6.wav */,
+			);
+			path = "Sound Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,8 +151,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DB288B2220CBF1F00F1966C /* note5.wav in Resources */,
+				9DB288B3220CBF1F00F1966C /* note1.wav in Resources */,
+				9DB288B1220CBF1F00F1966C /* note4.wav in Resources */,
+				9DB288AF220CBF1F00F1966C /* note6.wav in Resources */,
 				9D3E0B2C220CB4C30094F7A6 /* LaunchScreen.storyboard in Resources */,
+				9DB288B0220CBF1F00F1966C /* note3.wav in Resources */,
 				9D3E0B29220CB4C30094F7A6 /* Assets.xcassets in Resources */,
+				9DB288AD220CBF1F00F1966C /* note2.wav in Resources */,
+				9DB288AE220CBF1F00F1966C /* note0.wav in Resources */,
 				9D3E0B27220CB4BB0094F7A6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

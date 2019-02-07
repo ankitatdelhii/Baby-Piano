@@ -21,7 +21,6 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cqp-od-PcY" userLabel="Key 1">
                                 <rect key="frame" x="2" y="20" width="371" height="88"/>
                                 <color key="backgroundColor" red="1" green="0.078837385100000004" blue="0.080747973759999994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="pianoButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TAZ-PB-L1K"/>
                                 </connections>
@@ -29,7 +28,6 @@
                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cjn-ol-pWc" userLabel="Key 2">
                                 <rect key="frame" x="4" y="113" width="367" height="88.5"/>
                                 <color key="backgroundColor" red="1" green="0.57810515169999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="pianoButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wdW-96-psy"/>
                                 </connections>
@@ -37,7 +35,6 @@
                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nPC-eT-0v0" userLabel="Key 3">
                                 <rect key="frame" x="6" y="206.5" width="363" height="88"/>
                                 <color key="backgroundColor" red="1" green="0.80575918329999996" blue="0.46004545320000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="pianoButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Dch-lC-NkM"/>
                                 </connections>
@@ -45,7 +42,6 @@
                             <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="USR-NE-V5O" userLabel="Key 4">
                                 <rect key="frame" x="8" y="299.5" width="359" height="88"/>
                                 <color key="backgroundColor" red="0.0" green="0.98106676339999999" blue="0.57369142770000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="pianoButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fmF-0A-2bt"/>
                                 </connections>
@@ -53,7 +49,6 @@
                             <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YKT-51-OB9" userLabel="Key 5">
                                 <rect key="frame" x="10" y="392.5" width="355" height="88"/>
                                 <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="pianoButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="U4V-9f-XMM"/>
                                 </connections>
@@ -61,7 +56,6 @@
                             <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rqa-Hb-9w5" userLabel="Key 6">
                                 <rect key="frame" x="12" y="485.5" width="351" height="88.5"/>
                                 <color key="backgroundColor" red="1" green="0.52120530610000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="pianoButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0cA-bc-Cun"/>
                                 </connections>
@@ -69,7 +63,6 @@
                             <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P9n-V3-OHx" userLabel="Key 7">
                                 <rect key="frame" x="14" y="579" width="347" height="88"/>
                                 <color key="backgroundColor" red="0.58081901069999997" green="0.088427625600000004" blue="0.31863921880000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="pianoButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cid-eU-EVV"/>
                                 </connections>
