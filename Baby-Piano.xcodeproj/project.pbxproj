@@ -19,6 +19,7 @@
 		9DB288B1220CBF1F00F1966C /* note4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9DB288AA220CBF1E00F1966C /* note4.wav */; };
 		9DB288B2220CBF1F00F1966C /* note5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9DB288AB220CBF1E00F1966C /* note5.wav */; };
 		9DB288B3220CBF1F00F1966C /* note1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9DB288AC220CBF1F00F1966C /* note1.wav */; };
+		9DB288B7220CCE8000F1966C /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 9DB288B6220CCE8000F1966C /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		9DB288AA220CBF1E00F1966C /* note4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note4.wav; sourceTree = "<group>"; };
 		9DB288AB220CBF1E00F1966C /* note5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note5.wav; sourceTree = "<group>"; };
 		9DB288AC220CBF1F00F1966C /* note1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note1.wav; sourceTree = "<group>"; };
+		9DB288B6220CCE8000F1966C /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 			children = (
 				9D3E0B21220CB4BB0094F7A6 /* AppDelegate.swift */,
 				9D3E0B23220CB4BB0094F7A6 /* PianoController.swift */,
+				9DB288B6220CCE8000F1966C /* .gitignore */,
 				9D3E0B25220CB4BB0094F7A6 /* Main.storyboard */,
 				9D3E0B28220CB4C30094F7A6 /* Assets.xcassets */,
 				9DB288A5220CBEFA00F1966C /* Sound Files */,
@@ -155,6 +158,7 @@
 				9DB288B3220CBF1F00F1966C /* note1.wav in Resources */,
 				9DB288B1220CBF1F00F1966C /* note4.wav in Resources */,
 				9DB288AF220CBF1F00F1966C /* note6.wav in Resources */,
+				9DB288B7220CCE8000F1966C /* .gitignore in Resources */,
 				9D3E0B2C220CB4C30094F7A6 /* LaunchScreen.storyboard in Resources */,
 				9DB288B0220CBF1F00F1966C /* note3.wav in Resources */,
 				9D3E0B29220CB4C30094F7A6 /* Assets.xcassets in Resources */,
