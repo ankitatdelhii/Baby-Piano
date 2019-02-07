@@ -30,6 +30,7 @@ class ViewController: UIViewController {
         if let soundURL = Bundle.main.url(forResource: "note\(noteName)", withExtension: ".wav"){
             do{
                 audioPlayer = try AVAudioPlayer(contentsOf: soundURL)
+                try AVAudioSession.sharedInstance().setCategory(AVAudioSession.Category.playback, mode: AVAudioSession.Mode.default)
             }
             catch{
                 print(error)
