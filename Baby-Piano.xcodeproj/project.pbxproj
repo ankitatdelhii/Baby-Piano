@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9D3E0B22220CB4BB0094F7A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3E0B21220CB4BB0094F7A6 /* AppDelegate.swift */; };
-		9D3E0B24220CB4BB0094F7A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3E0B23220CB4BB0094F7A6 /* ViewController.swift */; };
+		9D3E0B24220CB4BB0094F7A6 /* PianoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3E0B23220CB4BB0094F7A6 /* PianoController.swift */; };
 		9D3E0B27220CB4BB0094F7A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D3E0B25220CB4BB0094F7A6 /* Main.storyboard */; };
 		9D3E0B29220CB4C30094F7A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D3E0B28220CB4C30094F7A6 /* Assets.xcassets */; };
 		9D3E0B2C220CB4C30094F7A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D3E0B2A220CB4C30094F7A6 /* LaunchScreen.storyboard */; };
@@ -17,7 +17,7 @@
 /* Begin PBXFileReference section */
 		9D3E0B1E220CB4BB0094F7A6 /* Baby-Piano.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Baby-Piano.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D3E0B21220CB4BB0094F7A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9D3E0B23220CB4BB0094F7A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9D3E0B23220CB4BB0094F7A6 /* PianoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PianoController.swift; sourceTree = "<group>"; };
 		9D3E0B26220CB4BB0094F7A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9D3E0B28220CB4C30094F7A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D3E0B2B220CB4C30094F7A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,7 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				9D3E0B21220CB4BB0094F7A6 /* AppDelegate.swift */,
-				9D3E0B23220CB4BB0094F7A6 /* ViewController.swift */,
+				9D3E0B23220CB4BB0094F7A6 /* PianoController.swift */,
 				9D3E0B25220CB4BB0094F7A6 /* Main.storyboard */,
 				9D3E0B28220CB4C30094F7A6 /* Assets.xcassets */,
 				9D3E0B2A220CB4C30094F7A6 /* LaunchScreen.storyboard */,
@@ -135,7 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D3E0B24220CB4BB0094F7A6 /* ViewController.swift in Sources */,
+				9D3E0B24220CB4BB0094F7A6 /* PianoController.swift in Sources */,
 				9D3E0B22220CB4BB0094F7A6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +283,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3XLRLT47KL;
 				INFOPLIST_FILE = "Baby-Piano/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +301,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3XLRLT47KL;
 				INFOPLIST_FILE = "Baby-Piano/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
